@@ -34,6 +34,14 @@
             display: block;
             width: 100%;
         }
+
+        @media screen and (max-width: $screen-sm-max){
+            font-size: 100px;
+        }
+
+        @media screen and (max-width: $screen-xs-max){
+            font-size: 50px;
+        }
     }
 
     .local{

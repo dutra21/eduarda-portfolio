@@ -17,16 +17,14 @@
 
     h2{
         margin: 0;
-        text-align: center;
         text-transform: uppercase;
         font-family: $font-secondary;
         font-weight: 800;
-        font-size: 150px;
+        font-size: 120px;
         letter-spacing: 2px;
         color: $color-bg-primary;
-        height: 90%;
+        height: 80%;
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
 

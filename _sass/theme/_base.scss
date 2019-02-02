@@ -49,11 +49,30 @@ body {
 }
 
 .icon-arrow{
-  width: 40px;
-  height: 40px;
-  background: url(icons/download.svg) no-repeat center center;
+  width: 35px;
+  height: 70px;
+  background: url(icons/big_arrow.png) no-repeat center center;
   -webkit-background-size: contain;
   background-size: contain;
+}
+
+.icon-resume{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(icons/arrow_download.png) no-repeat center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.ico-lkd{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(icons/linkedin.png) no-repeat center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  text-indent: -99999px;
 }
 
 .btn-menu{
@@ -72,5 +91,14 @@ body {
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
   transform-origin: right 0;
+  cursor: pointer;
+}
+
+.btn-download-cv{
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   cursor: pointer;
 }
